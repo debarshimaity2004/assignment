@@ -1,5 +1,5 @@
 # Use OpenJDK 17 base image
-FROM openjdk:17
+FROM eclipse-termurin:17-jdk
 
 # Set working directory
 WORKDIR /usr/src/app
